@@ -57,7 +57,7 @@
     />
 
     <!-- Custom StyleSheet -->
-    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="./css/main.css" />
 
     <!-- page title -->
     <title>(Building...) Mahi-Bi Alam</title>
@@ -135,7 +135,207 @@
       <div class="blur"></div>
     </div>
 
-    <main></main>
+    <main class="main-web-contents">
+      <!-- brief card -->
+      <div id="avatar" class="avatar">
+        <div
+          class="avatar__container d-flex flex-column justify-content-lg-between"
+        >
+          <!-- image & logo -->
+          <div class="avatar__block">
+            <div class="avatar__logo d-flex align-items-center">
+              <div class="logo__image">
+                <!-- <img src="./img/cbb-logo.svg" alt="brand-logo" /> -->
+
+                <!-- cbb logo -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  x="0px"
+                  y="0px"
+                  width="85px"
+                  height="85px"
+                  viewBox="0 0 85 85"
+                  style="enable-background: new 0 0 85 85"
+                  xml:space="preserve"
+                  class="gradient-fill"
+                >
+                  <style type="text/css">
+                    .gradient-fill {
+                      fill: url(#gradientFill);
+                    }
+                  </style>
+                  <g transform="translate(0, 85) scale(0.1, -0.1)">
+                    <linearGradient
+                      id="gradientFill"
+                      gradientUnits="userSpaceOnUse"
+                      x1="9.9604"
+                      y1="75.0338"
+                      x2="75.0387"
+                      y2="9.9555"
+                    >
+                      <stop offset="0" style="stop-color: var(--accent)"></stop>
+                      <stop
+                        offset="1"
+                        style="stop-color: var(--secondary)"
+                      ></stop>
+                    </linearGradient>
+                    <path
+                      class="gradient-fill"
+                      d="M300 831 c-30 -9 -73 -29 -95 -43 -53 -33 -128 -115 -155 -168 l-22
+-42 -14 -71 -15 -72 7 -49 c15 -112 64 -208 143 -279 49 -44 97 -70 176 -92
+l59 -18 78 6 78 5 65 31 65 30 55 52 55 52 31 62 30 61 11 68 11 68 -11 59
+c-22 121 -85 221 -177 284 l-52 36 -62 20 -63 19 -71 -1 -72 0 -55 -18z m276
+-32 l54 -20 50 -40 50 -40 34 -52 35 -52 16 -59 17 -58 -4 -77 -4 -76 -27 -58
+c-14 -32 -40 -76 -57 -97 l-30 -38 -56 -37 c-31 -21 -77 -44 -103 -52 l-46
+-15 -77 1 -76 1 -48 16 c-127 43 -227 150 -261 281 l-15 58 4 71 5 71 31 67
+31 67 50 48 51 49 53 26 c29 15 73 31 97 36 l45 9 63 -5 63 -5 55 -20z"
+                    />
+                    <path
+                      class="gradient-fill"
+                      d="M330 795 c-30 -9 -73 -27 -95 -40 -40 -23 -125 -107 -125 -122 1 -8
+292 -178 316 -185 12 -3 134 63 134 73 0 3 -17 15 -37 26 l-38 21 -28 -14 -28
+-15 -99 58 c-55 32 -100 61 -100 65 0 4 28 21 63 38 l63 31 71 1 70 1 67 -31
+66 -31 0 -10 c0 -6 -13 -17 -30 -26 -16 -9 -30 -19 -30 -23 0 -4 16 -16 35
+-26 l34 -19 28 12 c16 6 42 23 58 36 l30 25 -62 59 -61 59 -59 22 -58 22 -65
+4 -65 4 -55 -15z"
+                    />
+                    <path
+                      class="gradient-fill"
+                      d="M64 544 l-16 -57 0 -61 1 -61 14 -47 c21 -69 59 -128 112 -177 l46
+-43 52 -23 c29 -12 71 -26 95 -30 l42 -7 0 111 0 111 -11 0 -11 0 11 14 12 14
+-3 67 -3 67 -154 89 c-85 49 -158 89 -162 89 -5 0 -16 -25 -25 -56z m263 -194
+l-2 -25 -21 1 -21 0 -81 48 -82 48 0 27 c0 15 2 30 5 33 3 3 51 -20 105 -51
+l100 -56 -3 -25z m3 -183 l0 -38 -32 17 c-56 29 -88 57 -119 103 -16 24 -29
+48 -29 52 0 4 40 -16 90 -44 l90 -52 0 -38z"
+                    />
+                    <path
+                      class="gradient-fill"
+                      d="M613 516 c-78 -46 -149 -89 -158 -96 l-15 -12 0 -63 0 -63 18 -7 17
+-6 -18 -10 -18 -11 2 -104 1 -104 17 0 c10 0 42 7 71 16 l54 16 51 33 52 33
+36 44 c20 24 46 66 58 93 l22 50 4 85 3 85 -17 49 c-10 27 -22 51 -28 52 -5 2
+-74 -34 -152 -80z m126 -77 l1 -17 -90 -52 -91 -52 -13 5 c-7 3 -16 14 -19 26
+l-5 20 102 59 101 58 7 -15 c4 -9 7 -23 7 -32z m-48 -173 c-25 -40 -88 -99
+-130 -120 l-29 -16 -4 12 c-2 6 -2 23 0 38 l4 27 86 50 c48 27 89 48 91 47 2
+-2 -6 -18 -18 -38z"
+                    />
+                  </g>
+                </svg>
+              </div>
+
+              <!-- name -->
+              <div class="logo__caption">
+                <!-- <p>Alex<br />Walker</p> -->
+                <p>
+                  Mahi-Bi <br />
+                  Alam
+                </p>
+              </div>
+            </div>
+
+            <!-- image -->
+            <!--  -->
+            <div class="avatar__image">
+              <img src="./img/me.jpg" alt="Mahi-Bi Alam's Image" />
+            </div>
+          </div>
+
+          <!-- specialization -->
+          <div class="avatar__block">
+            <h6>
+              <small class="top">Specialization:</small>
+
+              Programing,
+              <br />
+              Frontend Development,
+              <br />
+              Android App Development
+            </h6>
+          </div>
+
+          <!-- based from -->
+          <div class="avatar__block">
+            <h6>
+              <small class="top">Based in:</small>
+              Pabna, Bangladesh
+            </h6>
+          </div>
+
+          <!-- socials -->
+          <div class="avatar__block">
+            <div class="avatar__socials">
+              <ul class="socials-square d-flex justify-content-between">
+                <!-- github -->
+                <li class="socials-square__item">
+                  <a
+                    class="socials-square__link btn"
+                    href="https://github.com/mahimnxt23/"
+                    target="_blank"
+                  >
+                    <i class="ph-bold ph-github-logo"></i>
+                  </a>
+                </li>
+
+                <!-- linkedin -->
+                <li class="socials-square__item">
+                  <a
+                    class="socials-square__link btn"
+                    href="https://www.linkedin.com/in/mahibialam23/"
+                    target="_blank"
+                  >
+                    <i class="ph-bold ph-linkedin-logo"></i>
+                  </a>
+                </li>
+
+                <!-- discord -->
+                <li class="socials-square__item">
+                  <a
+                    class="socials-square__link btn"
+                    href="https://discord.com/users/461168017657692161/"
+                    target="_blank"
+                  >
+                    <i class="ph-bold ph-discord-logo"></i>
+                  </a>
+                </li>
+
+                <!-- instagram -->
+                <li class="socials-square__item">
+                  <a
+                    class="socials-square__link btn"
+                    href="https://www.instagram.com/__mahimnxt23__/"
+                    target="_blank"
+                  >
+                    <i class="ph-bold ph-instagram-logo"></i>
+                  </a>
+                </li>
+
+                <!-- twitter -->
+                <li class="socials-square__item">
+                  <a
+                    class="socials-square__link btn"
+                    href="https://x.com/mahim_nxt/"
+                    target="_blank"
+                  >
+                    <i class="ph-bold ph-x-logo"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <!-- CTA button -->
+            <div class="avatar__btnholder">
+              <a
+                class="btn btn-default btn-fullwidth btn-hover btn-hover-accent"
+                href="#contact"
+                target="_blank"
+              >
+                <span class="btn-caption">Let's Work Together!</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
     <footer></footer>
 
     <!-- jQuery 3.7.1 -->
@@ -183,8 +383,8 @@
       integrity="sha512-3n19xznO0ubPpSwYCRRBgHh63DrV+bdZfHK52b1esvId4GsfwStQNPJFjeQos2h3JwCmZl0/LgLxSKMAI55hgw=="
     ></script>
 
-    <!-- custom JS -->
-    <script src="/js/main.js"></script>
+    <!-- theme switcher -->
+    <script src="/js/themeSwitcher.js"></script>
 
     <!-- animated gradient background -->
     <script src="/js/gradientBG.js"></script>

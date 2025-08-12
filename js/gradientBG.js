@@ -1,3 +1,4 @@
+// background animation config
 const randomX = random(-400, 400);
 const randomY = random(-200, 200);
 const randomDelay = random(0, 50);
